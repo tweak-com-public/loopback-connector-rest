@@ -44,6 +44,5 @@
     "type": "git",
     "url": "https://github.com/strongloop/loopback-connector-rest.git"
   },
-  "license": "MIT",
-  "private": true
+  "license": "MIT"
 }
