@@ -1,6 +1,6 @@
 {
-  "name": "loopback-connector-rest",
-  "version": "3.2.0",
+  "name": "@tweak-org/loopback-connector-rest",
+  "version": "3.2.0-tweak.0",
   "description": "Loopback REST Connector",
   "engines": {
     "node": ">=6"
@@ -44,5 +44,6 @@
     "type": "git",
     "url": "https://github.com/strongloop/loopback-connector-rest.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "private": true
 }

@@ -288,7 +288,7 @@ The following table provides several examples:
 
 To use custom methods, configure the REST connector with the `operations` property, which is an array of objects, each of which can have these properties:
 
-- `template` defines the API structure. 
+- `template` defines the API structure.
 - `functions` defines JavaScript methods that accept the specified list of parameter names.
 
 ```javascript
@@ -327,7 +327,7 @@ Model.geocode('107 S B St', 'San Mateo', '94401', processResponse);
 By default, the REST connector also provides an 'invoke' method to call the REST API with an object of parameters, for example:
 
 ```javascript
-Model.invoke({street: '107 S B St', city: 'San Mateo', zipcode: '94401'}, processResponse);
+Model.invoke.geocode({street: '107 S B St', city: 'San Mateo', zipcode: '94401'}, processResponse);
 ```
 
 ## Parameter/variable mapping to HTTP (since 2.0.0)
